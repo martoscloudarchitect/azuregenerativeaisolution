@@ -20,3 +20,4 @@ az group create --name $resourceGroupName --location $location
 New-AzureRmResourceGroupDeployment -ResourceGroupName $resourceGroupName -TemplateFile $bicepFileName -Mode Incremental -verbose
 
 ### Useful: az cognitiveservices account list-kinds
+### Next Steps
